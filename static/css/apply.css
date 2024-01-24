@@ -1,0 +1,25 @@
+.row1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 38%;
+  margin-right: auto;
+}
+
+.row2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.becpart>li {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#apply-button {
+  width: 300px;
+  height: 80px;
+  font-size: 25pt;
+  font-weight: bold;
+  background-color: crimson;
+  border-color: black;
+}

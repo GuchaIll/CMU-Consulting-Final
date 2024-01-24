@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IS | 67-240</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <!-- JavaScript -->
+  <script defer src="src/overall.js"></script>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="static/css/overall.css">
+  
+  <style>
+    @font-face {
+      font-family: open-sans;
+      src: url(static/Open-Sans/OpenSans-Light.ttf);
+    }
+
+    body {
+      font-family: open-sans;
+    }
+
+    .carousel-item {
+      height: 18rem;
+      background: #777;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- The Nav Bar< Will go First -->
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.cmu.edu/"><img src="static/images/overall-images/cmulogo.png"
+          alt="carnegie mellon unversity logo" class="navbar-logo"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a id="location-specific" class="nav-link dropdown-toggle" href="courseOverview.html" data-bs-toggle="dropdown"
+              aria-expanded="false">Courses</a>
+            <ul class="dropdown-menu">
+              <li><a id="location-specific" class="dropdown-item" href="courseOverview.html">Courses Overview</a></li>
+              <li><a class="dropdown-item" href="67-373.html">67-373: IS Consulting Project</a></li>
+              <li id="not-qatar"><a class="dropdown-item" href="67-240.html">67-240: Mobile Web Sesign and Development</a></li>
+              <li id="not-qatar"><a class="dropdown-item" href="67-206.html">67-206: IS Community Engagement</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- The Course Title/Photo -->
+    <div class="container">
+      <div class="row row1">
+        <div class="col">
+          <h1>67-240: Mobile Web Design and Development</h1>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="col">
+          <img src="static/images/67-240 images/course2img1.jpg" width="90%">
+        </div>
+      </div>
+      <div class="row row3">
+        <div class="col">
+
+          <!-- The Course Description -->
+          <h2> Overview </h2>
+        </div>
+      </div>
+
+      <div class="row row4">
+        <div class="col">
+          <p>The Mobile Web Design and Development course provides a solid web design and development
+            foundation focusing on responsive, user-centered design, and client-side components. Students
+            explore the current standards and best practices of web design. Throughout the course, students
+            work with HTML5, CSS3, Twitter Bootstrap, and JavaScript, and learn how the various web
+            components function together. The course utilizes a hands-on approach to guide students through
+            learning and understanding the design and development process. In this course, students work on
+            activities, individual assignments and a group project with a client using the current standards and
+            best practices of web design and development. This course is primarily designed for students with
+            minimal technical experience. By the end of the course, students will be able to plan, design, and
+            implement a basic functioning mobile website/ app.
+          </p>
+        </div>
+      </div>
+
+      <!-- Past Projects -->
+      <div class="row row5">
+        <div class="col">
+          <h2>Projects</h2>
+        </div>
+      </div>
+
+      <div class="row row5">
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="static/images/67-240 images/course2img1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/67-240 images/course2img1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="static/images/67-240 images/course2img1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p class="info">© Information Systems at Carnegie Mellon University | 5000 Forbes Avenue, Pittsburgh, PA 15213 |
+        (412) 268-3259</p>
+      <p class="acknowledgements">Acknowledgements: This website is the outcome of a student project in Mobile Web
+        Design and Development (67-240) and is maintained by student-led effort. Credits: Website prototyping and
+        development © Erin Dieringer, Zoe Feng, Arnav Luthra, Abbey Mui, and Pooja Penninti. Website maintenance ©
+        Stephanie Pang, Samara McCallum, Emmet Mack, Allen Yao, Benjamin Chen, and Chloe Deng. Faculty advisors: Prof.
+        Sara Moussawi, Prof. Larry Heimann, and Prof. Julia Poepping.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 5% 0;
+  padding: 3% 1%;
+}
+
+footer {
+  left: 0;
+  width: 100vw;
+  margin: 0;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 2fr));
+  grid-auto-rows: 1fr;
+
+}
+
+.grid2::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+
+.grid2>*:first-child {
+  grid-row: 1 / 1;
+  grid-column: 1 / 1;
+}
+
+/* Just to make the grid visible */
+
+.grid2>* {
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px white solid;
+}
+
+.grid2>*:hover {
+  filter: brightness(120%);
+  border: 10px white solid;
+}
+
+
+.tinted-image {
+  min-height: 150px;
+  max-height: 200px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  filter: brightness(70%);
+}
+
+#tinted-image1 {
+  background: red;
+  background-image: url('../images/projects-images/tintedimg1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+#tinted-image2 {
+  background-image: url('../images/projects-images/tintedimg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.category:hover {
+  filter: blur(1px);
+  border: 10px white solid;
+
+}
+
+.centered {
+  text-align: center;
+  margin: 3%;
+}
+
+.technology>div {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#api {
+  background-image: url("../images/icons/maps-pin-black-icon.png")
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Adjust the width as needed */
+}
+
+.image-container img {
+  width: 100%;
+  /* Make the image fill the container */
+  height: auto;
+  /* Maintain the aspect ratio */
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  /* Adjust the top position as needed */
+  left: 50%;
+  /* Adjust the left position as needed */
+  transform: translate(-50%, 90%);
+  /* Center the text */
+  color: #ffffff;
+  /* Text color */
+  font-size: 1rem;
+  /* Adjust the font size as needed */
+  font-weight: bold;
+  text-align: center;
+}
+
+.query {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* Adjust the gap between items as needed */
+  padding: 10px;
+  /* Optional: Add padding to the container */
+}
+
+/* Optional: Style the search input */
+.query input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

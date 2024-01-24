@@ -1,0 +1,65 @@
+@font-face {
+  font-family: open-sans;
+  src: url(../Open-Sans/OpenSans-Light.ttf);
+}
+
+body {
+  font-family: open-sans;
+  --navbar-min-height: 60px;
+  padding-top: var(--navbar-min-height);
+}
+
+/* Navigation Bar Styling */
+#navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: var(--navbar-min-height);
+  top: 0;
+  left: 0;
+  padding: 0px 0px;
+
+  transition: top 0.8s;
+  /* Transition effect */
+
+  padding-top: 0.25vh;
+  padding-bottom: 0.25vh;
+}
+
+.navbar {
+  background-color: #c41230;
+}
+
+.navbar-logo {
+  width: 300px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #464646;
+  /* Dark gray background */
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-content {
+  margin: 0 auto;
+  max-width: 95%;
+  /* Adjust as needed */
+}
+
+.footer-content .info {
+  margin: 10px 0;
+  font-size: 16px;
+  color: white;
+  /* White text for the first piece of information */
+}
+
+.footer-content .acknowledgements {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #918686;
+  /* Light gray text for the second piece of information */
+}

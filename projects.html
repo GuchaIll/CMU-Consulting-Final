@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>IS | Projects</title>
+  
+  <!-- Overall Website CSS and JavaScript -->
+  <script defer src="src/overall.js"></script>
+  <script defer src="src/projects.js"></script>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+  <link href="static/css/datacard.css" rel="stylesheet">
+  <link href="static/css/projects.css" rel="stylesheet">
+  <link href="static/css/overall.css" rel="stylesheet" type="text/css">
+
+  <style>
+    @font-face {
+      font-family: open-sans;
+      src: url(static/Open-Sans/OpenSans-Light.ttf);
+    }
+
+    body {
+      font-family: open-sans;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.cmu.edu/"><img src="static/images/overall-images/cmulogo.png"
+          alt="carnegie mellon unversity logo" class="navbar-logo"></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a id="location-specific" class="nav-link dropdown-toggle" href="courseOverview.html" data-bs-toggle="dropdown"
+              aria-expanded="false">Courses</a>
+            <ul class="dropdown-menu">
+              <li><a id="location-specific" class="dropdown-item" href="courseOverview.html">Courses Overview</a></li>
+              <li><a class="dropdown-item" href="67-373.html">67-373: IS Consulting Project</a></li>
+              <li id="not-qatar"><a class="dropdown-item" href="67-240.html">67-240: Mobile Web Sesign and Development</a></li>
+              <li id="not-qatar"><a class="dropdown-item" href="67-206.html">67-206: IS Community Engagement</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Banner and Heading of the page,
+    same across all pges!-->
+  </div>
+
+  <div class="query">
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Year
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item active" href="#">2015</a></li>
+        <li><a class="dropdown-item" href="#">2016</a></li>
+        <li><a class="dropdown-item" href="#">2017</a></li>
+        <li><a class="dropdown-item" href="#">2018</a></li>
+        <li><a class="dropdown-item" href="#">2019</a></li>
+        <li><a class="dropdown-item" href="#">2020</a></li>
+        <li><a class="dropdown-item" href="#">2021</a></li>
+        <li><a class="dropdown-item" href="#">2022</a></li>
+        <li><a class="dropdown-item" href="#">2023</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Course
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item active" href="#">67-373</a></li>
+        <li><a class="dropdown-item" href="#">67-206</a></li>
+        <li><a class="dropdown-item" href="#"> 67-206</a></li>
+
+
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Semester
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark">
+        <li><a class="dropdown-item active" href="#">Spring</a></li>
+        <li><a class="dropdown-item" href="#">Fall</a></li>
+
+      </ul>
+    </div>
+    <input type="text" placeholder="Search..">
+
+  </div>
+
+
+
+  <h1 class="centered">Find our past projects</h1>
+  <div class="container mx-auto">
+    <div class="row gx-3 justify-content-center">
+      <div
+        class="category col-md-4 tinted-image h-md-50 h-lg-75 d-flex align-items-center justify-content-center text-center"
+        id="tinted-image1">
+        Sustainable Development
+      </div>
+      <div
+        class="category col-md-4 tinted-image h-md-50 h-lg-75 d-flex align-items-center justify-content-center text-center"
+        id="tinted-image2">
+        Technology
+      </div>
+    </div>
+  </div>
+
+  <h2>Sustainable Development Projects</h2>
+  <div class="grid2 sustainable-dev">
+    <div>
+      <img src="static/images/projects-images/icons/1.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/2.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/3.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/4.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/5.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/6.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/7.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/8.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/9.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/10.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/11.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/12.png" width=100%>
+    </div>
+    <div><img src="static/images/projects-images/icons/13.png" width=100%></div>
+    <div>
+      <img src="static/images/projects-images/icons/14.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/15.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/16.png" width=100%>
+    </div>
+    <div>
+      <img src="static/images/projects-images/icons/17.png" width=100%>
+    </div>
+  </div>
+
+  <h2>Technology Implementations</h2>
+  <div class="grid2">
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/api.png" alt="Your Image">
+      <div class="overlay-text">API</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/application.png" alt="Your Image">
+      <div class="overlay-text">Application</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/crm.png" alt="Your Image">
+      <div class="overlay-text">CRM</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/analytic.png"
+        alt="static/images/icons/business-presentation-icon.png">
+      <div class="overlay-text">Analytic</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/database.png" alt="Your Image">
+      <div class="overlay-text">Database</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/geoinfo.png" alt="Your Image" height=100%>
+      <div class="overlay-text">GeoInfo</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/kisok.svg" alt="Your Image" height=100%>
+      <div class="overlay-text">Kiosk</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/security.png" alt="Your Image">
+      <div class="overlay-text">Security</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/mobileapp.svg" alt="Your Image">
+      <div class="overlay-text">MobileApp</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/socialmedia.png" alt="Your Image">
+      <div class="overlay-text">SocialMedia</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/software.png" alt="Your Image">
+      <div class="overlay-text">Software</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/techstrat.png" alt="Your Image">
+      <div class="overlay-text">TechStrat</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/userexp.png" alt="Your Image">
+      <div class="overlay-text">UserExp</div>
+    </div>
+    <div class="image-container">
+      <img src="static/images/projects-images/icons/tech-imp-icons/webapp.png" alt="Your Image">
+      <div class="overlay-text">WebApp</div>
+    </div>
+
+
+  </div>
+
+  <!--Project Query!-->
+
+  <!-- <div class="data-card" onclick="openModal()">
+    <h2>Loading Data Card example</h2>
+    <div class="clickable-div">Click here</div>
+  </div> -->
+
+
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <div class="carousel-container">
+        <div class="carousel-images">
+          <!-- Add your images and text here -->
+          <div class="image-card">
+            <h1 class="image-text">2020</h1>
+            <img class="carousel-image" src="static/images/projects-images/412Connect.png" alt="Image 1">
+            <h1 class="image-text">412 Connect</h1>
+            <p class="image-text">Sera Linardi, Ivy Chang, Leo Jung
+            </p>
+            <h2>Project Description</h2>
+            <p>412Connect aims to showcase organizations from marginalized communities to local university students
+              through an online scavenger hunt. The CMU IS student team primarily worked on addressing the current pain
+              points of the website by redesigning the user dashboard, revamping the user authentication process, and
+              remodeling user feedback collection. These changes should create a more intuitive user experience that
+              helps the platform better retain students down the line.</p>
+            <h2>Student Development Team</h2>
+            <p>Danagul Azimzhanova, Jacky He, Kevin Lin, Eric Rohrer</p>
+          </div>
+
+          <div class="image-card">
+            <h1 class="image-text">2020</h1>
+            <img class="carousel-image" src="static/images/projects-images/412Connect.png" alt="Image 2">
+            <h1 class="image-text">412 Connect</h1>
+            <p class="image-text">Sera Linardi, Ivy Chang, Leo Jung
+            </p>
+            <h2>Project Description</h2>
+            <p>412Connect aims to showcase organizations from marginalized communities to local university students
+              through an online scavenger hunt. The CMU IS student team primarily worked on addressing the current pain
+              points of the website by redesigning the user dashboard, revamping the user authentication process, and
+              remodeling user feedback collection. These changes should create a more intuitive user experience that
+              helps the platform better retain students down the line.</p>
+            <h2>Student Development Team</h2>
+            <p>Danagul Azimzhanova, Jacky He, Kevin Lin, Eric Rohrer</p>
+          </div>
+          <div class="image-card">
+            <h1 class="image-text">2020</h1>
+            <img class="carousel-image" src="static/images/projects-images/412Connect.png" alt="Image 3">
+            <h1 class="image-text">412 Connect</h1>
+            <p class="image-text">Sera Linardi, Ivy Chang, Leo Jung
+            </p>
+            <h2>Project Description</h2>
+            <p>412Connect aims to showcase organizations from marginalized communities to local university students
+              through an online scavenger hunt. The CMU IS student team primarily worked on addressing the current pain
+              points of the website by redesigning the user dashboard, revamping the user authentication process, and
+              remodeling user feedback collection. These changes should create a more intuitive user experience that
+              helps the platform better retain students down the line.</p>
+            <h2>Student Development Team</h2>
+            <p>Danagul Azimzhanova, Jacky He, Kevin Lin, Eric Rohrer</p>
+          </div>
+
+        </div>
+      </div>
+      <div class="modal-nav">
+        <button onclick="prevImage()"><img src="static/images/projects-images/icons/leftarrow.png" alt=""></button>
+        <button onclick="closeModal()"><img src="static/images/projects-images/icons/ex.png" alt=""></button>
+        <button onclick="nextImage()"><img src="static/images/projects-images/icons/rightarrow.png" alt=""></button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-4 square aspect-ratio ratio-1x1">
+        <div class="ratio ratio-1x1">
+          <div class="Project">
+
+            <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/AthleticsLogo.jpg"
+                width=100%></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-4 square aspect-ratio ratio-1x1">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/Auberle.jpg"
+              width=100%></a>
+        </div>
+      </div>
+      <div class="col-4 square aspect-ratio ratio-1x1">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/BeaverLogo.jpg"
+              width=100%></a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/BlueLogo.jpg"
+              width=100%></a>
+        </div>
+      </div>
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card"><img src="static/images/projects-images/Bridge.jpg" width=100%></a>
+        </div>
+      </div>
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/ChristianLogo.jpg"
+              width=100%></a>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/TSB.jpg" width=100%></a>
+        </div>
+      </div>
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/HandLogo.jpg"
+              width=100%></a>
+        </div>
+      </div>
+      <div class="col-4 square ">
+        <div class="ratio ratio-1x1">
+          <a href="#project-card" onclick="openModal()"><img src="static/images/projects-images/UMDF.jpg"
+              width=100%></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <footer>
+    <div class="footer-content">
+      <p class="info">© Information Systems at Carnegie Mellon University | 5000 Forbes Avenue, Pittsburgh, PA 15213 |
+        (412) 268-3259</p>
+      <p class="acknowledgements">Acknowledgements: This website is the outcome of a student project in Mobile Web
+        Design and Development (67-240) and is maintained by student-led effort. Credits: Website prototyping and
+        development © Erin Dieringer, Zoe Feng, Arnav Luthra, Abbey Mui, and Pooja Penninti. Website maintenance ©
+        Stephanie Pang, Samara McCallum, Emmet Mack, Allen Yao, Benjamin Chen, and Chloe Deng. Faculty advisors: Prof.
+        Sara Moussawi, Prof. Larry Heimann, and Prof. Julia Poepping.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

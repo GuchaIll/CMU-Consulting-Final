@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IS | Course Overview</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- JavaScript -->
+  <script defer src="../src/overall.js"></script>
+  
+  <!-- Style -->
+  <link rel="stylesheet" href="../static/css/courseOverview.css">
+  <link rel="stylesheet" href="../static/css/overall.css">
+  
+  <style>
+    @font-face {
+      font-family: open-sans;
+      src: url(../static/Open-Sans/OpenSans-Light.ttf);
+    }
+
+    body {
+      font-family: open-sans;
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.cmu.edu/"><img src="../static/images/overall-images/cmulogo.png"
+          alt="carnegie mellon unversity logo" class="navbar-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+        aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample05">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../projects.html">Projects</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="courseOverview.html" data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="courseOverview.html">Courses Overview</a></li>
+              <li><a class="dropdown-item" href="../67-373.html">67-373: IS Consulting Project</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="row row1">
+      <div class="col">
+        <h1>Course Catalog</h1>
+      </div>
+    </div>
+
+    <div class="container-main">
+
+      <div class="columns project-columns">
+        <div class="col col-3">
+          <img src="../static/images/courseOverview images/course1img.jpg" alt="image of project" class="project-image">
+          <div class="projectbox-content">
+            <a href="../67-373.html" class="senttocourse"><h4>67-373: IS Consoulting Project</h4></a>
+            <p class="discription">This course provides an experiential learning and community engagement experience to
+              undergraduate students in
+              the IS program.
+
+              Students will develop an iterative testing model to improve and conduct CMU Information Systems’ outreach
+              to
+              students in the Pittsburgh Public School system.</p>
+            <a href="../apply.html"><button class="apply-button">Apply here for: 67-373</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <footer>
+    <div class="footer-content">
+      <p class="info">© Information Systems at Carnegie Mellon University | 5000 Forbes Avenue, Pittsburgh, PA 15213 |
+        (412) 268-3259</p>
+      <p class="acknowledgements">Acknowledgements: This website is the outcome of a student project in Mobile Web
+        Design and Development (67-240) and is maintained by student-led effort. Credits: Website prototyping and
+        development © Erin Dieringer, Zoe Feng, Arnav Luthra, Abbey Mui, and Pooja Penninti. Website maintenance ©
+        Stephanie Pang, Samara McCallum, Emmet Mack, Allen Yao, Benjamin Chen, and Chloe Deng. Faculty advisors: Prof.
+        Sara Moussawi, Prof. Larry Heimann, and Prof. Julia Poepping.</p>
+    </div>
+  </footer>
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
